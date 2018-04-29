@@ -6,7 +6,8 @@
 2. 
 
 ```
-while read line;do sed 's/chrZ/'$line'/g' run.template.sh >run.${line}.sh;done<../chr.txt```
+while read line;do sed 's/chrZ/'$line'/g' run.template.sh >run.${line}.sh;done<../chr.txt
+```
 
 3. Create job.template.sh
 
